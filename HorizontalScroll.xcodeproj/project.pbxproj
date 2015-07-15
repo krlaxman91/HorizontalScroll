@@ -13,6 +13,7 @@
 		4B55BD731B56342000D1589C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B55BD721B56342000D1589C /* Images.xcassets */; };
 		4B55BD761B56342000D1589C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B55BD741B56342000D1589C /* LaunchScreen.xib */; };
 		4B55BD821B56342000D1589C /* HorizontalScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B55BD811B56342000D1589C /* HorizontalScrollTests.swift */; };
+		4B55BD8C1B5635E200D1589C /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B55BD8B1B5635E200D1589C /* TableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4B55BD7B1B56342000D1589C /* HorizontalScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B55BD801B56342000D1589C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B55BD811B56342000D1589C /* HorizontalScrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollTests.swift; sourceTree = "<group>"; };
+		4B55BD8B1B5635E200D1589C /* TableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				4B55BD6B1B56342000D1589C /* AppDelegate.swift */,
+				4B55BD8B1B5635E200D1589C /* TableCell.swift */,
 				4B55BD6D1B56342000D1589C /* ViewController.swift */,
 				4B55BD6F1B56342000D1589C /* Main.storyboard */,
 				4B55BD721B56342000D1589C /* Images.xcassets */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B55BD8C1B5635E200D1589C /* TableCell.swift in Sources */,
 				4B55BD6E1B56342000D1589C /* ViewController.swift in Sources */,
 				4B55BD6C1B56342000D1589C /* AppDelegate.swift in Sources */,
 			);
